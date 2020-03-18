@@ -10,13 +10,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ env('APP_NAME') }}</title>
+
     <!-- Fonts Roboto-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/adminLte/dist/css/adminlte.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/adminLte/plugins/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -24,9 +23,6 @@
     <div id="root"></div>
 
     <script src="{{ asset('js/app.js') }}"></script>
-    {{-- <script src="{{ asset('vendor/adminlte/plugins/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('vendor/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script> --}}
 </body>
 
 </html>

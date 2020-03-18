@@ -1,6 +1,6 @@
 body {
     background: rgb(25, 24, 31) url("assets/stars.svg") no-repeat !important;
-    color: white;
+    color: rgb(100, 100, 100);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
