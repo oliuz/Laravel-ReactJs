@@ -1,36 +1,23 @@
-import React from "react";
-import { Nav, NavDropdown } from "react-bootstrap";
+/* eslint-disable import/no-extraneous-dependencies */
+import React from 'react';
+import { Nav, NavDropdown } from 'react-bootstrap';
 
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCog, faUser, faDoorOpen } from "@fortawesome/free-solid-svg-icons";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-library.add(faCog, faUser, faDoorOpen);
+import { FaCog, FaUser, FaDoorOpen } from 'react-icons/fa';
 
 export default function LinkUser() {
     return (
         <Nav>
             <NavDropdown title="UserMenu" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#">
-                    <FontAwesomeIcon
-                        icon={["fa", "cog"]}
-                        style={{ "margin-right": "10px" }}
-                    />
+                    <FaCog size={16} color="#e02041" />
                     Setings
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#">
-                    <FontAwesomeIcon
-                        icon={["fa", "user"]}
-                        style={{ "margin-right": "10px" }}
-                    />
+                    <FaUser size={16} color="#e02041" />
                     Profile
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#">
-                    <FontAwesomeIcon
-                        icon={["fa", "door-open"]}
-                        style={{ "margin-right": "10px" }}
-                    />
+                    <FaDoorOpen size={16} color="#e02041" />
                     Logout
                 </NavDropdown.Item>
             </NavDropdown>

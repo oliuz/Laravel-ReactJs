@@ -1,16 +1,18 @@
 {
-    "name": "laravel/laravel",
+    "name": "styllth/laravel-react",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "App Laravel Framework with React JS.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "react"
     ],
+    "autor": "Styllth Saraiva Ribeiro",
     "license": "MIT",
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "^6",
+        "laravel/framework": "^6.18",
         "laravel/passport": "^8.3",
         "laravel/tinker": "^1.0"
     },
